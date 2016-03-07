@@ -2,11 +2,11 @@
 
 int main()
 {
-    int this_is_your_name;
+    int name;
 
     printf("Please enter your name: ");
-    scanf( "%d", &this_is_your_name );
-    printf( "Hello %d", this_is_your_name );
+    scanf( "%d", &name );
+    printf( "Hello %d", &name );
     getchar();
     return 0;
 }
